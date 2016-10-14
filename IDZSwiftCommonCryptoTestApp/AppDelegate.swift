@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import IDZSwiftCommonCrypto
+import DLIDZSwiftCommonCrypto
 
 // MARK: - Crypto Demo
 func test_StreamCryptor_AES_ECB() {

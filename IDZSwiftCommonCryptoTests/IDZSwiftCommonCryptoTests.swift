@@ -8,7 +8,7 @@
 
 import Foundation
 import XCTest
-@testable import IDZSwiftCommonCrypto
+@testable import DLIDZSwiftCommonCrypto
 import CommonCrypto
 
 class IDZSwiftCommonCryptoTests: XCTestCase {

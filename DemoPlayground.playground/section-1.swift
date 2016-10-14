@@ -5,7 +5,7 @@ import Foundation
 // sudo xcrun -sdk macosx swift GenerateCommonCryptoModule.swift macosx
 //
 import CommonCrypto
-import IDZSwiftCommonCrypto
+import DLIDZSwiftCommonCrypto
 
 var ss  = "" as NSString
 ss.stringByAppendingPathComponent("hello")

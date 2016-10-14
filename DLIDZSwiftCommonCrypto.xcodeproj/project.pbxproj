@@ -25,11 +25,11 @@
 		308499B11BA77BC20025B41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308499B01BA77BC20025B41D /* Assets.xcassets */; };
 		308499B41BA77BC20025B41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499B21BA77BC20025B41D /* LaunchScreen.storyboard */; };
 		308499BF1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499BE1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift */; };
-		308499D51BA77F2B0025B41D /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */; };
-		308499D61BA77F2B0025B41D /* IDZSwiftCommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		308499D51BA77F2B0025B41D /* DLDLIDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCB89AB19CE05F800068ED6 /* DLDLIDZSwiftCommonCrypto.framework */; };
+		308499D61BA77F2B0025B41D /* DLDLIDZSwiftCommonCrypto.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCB89AB19CE05F800068ED6 /* DLDLIDZSwiftCommonCrypto.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		308499DB1BA78C600025B41D /* CommonCryptoAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308499DA1BA78C600025B41D /* CommonCryptoAPITests.m */; };
 		308499DC1BA7A4920025B41D /* IDZSwiftCommonCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89BA19CE05F800068ED6 /* IDZSwiftCommonCryptoTests.swift */; };
-		309B66A01C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		309B66A01C3F04F500CF76D5 /* DLIDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66961C3F04F500CF76D5 /* DLIDZSwiftCommonCrypto.framework */; };
 		309B66AF1C3F073D00CF76D5 /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012B11A1BAA237C008504EB /* Updateable.swift */; };
 		309B66B01C3F073D00CF76D5 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C519CE071D00068ED6 /* Digest.swift */; };
 		309B66B11C3F073D00CF76D5 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F5B2D19D2948F00E0B5FF /* Cryptor.swift */; };
@@ -42,7 +42,7 @@
 		309B66B81C3F073D00CF76D5 /* IDZSwiftCommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCB89B019CE05F800068ED6 /* IDZSwiftCommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		309B66B91C3F073D00CF76D5 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050B9B31BA9F7C700177A38 /* Crypto.swift */; };
 		309B66BA1C3F106100CF76D5 /* IDZSwiftCommonCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89BA19CE05F800068ED6 /* IDZSwiftCommonCryptoTests.swift */; };
-		309B66CA1C3F13B200CF76D5 /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66C01C3F13B100CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		309B66CA1C3F13B200CF76D5 /* DLIDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66C01C3F13B100CF76D5 /* DLIDZSwiftCommonCrypto.framework */; };
 		309B66D71C3F13F800CF76D5 /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012B11A1BAA237C008504EB /* Updateable.swift */; };
 		309B66D81C3F13F800CF76D5 /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C519CE071D00068ED6 /* Digest.swift */; };
 		309B66D91C3F13F800CF76D5 /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F5B2D19D2948F00E0B5FF /* Cryptor.swift */; };
@@ -113,7 +113,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				308499D61BA77F2B0025B41D /* IDZSwiftCommonCrypto.framework in Embed Frameworks */,
+				308499D61BA77F2B0025B41D /* DLDLIDZSwiftCommonCrypto.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,10 +124,10 @@
 		0C3079D619DD47900018E538 /* GenerateCommonCryptoModule */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = GenerateCommonCryptoModule; sourceTree = "<group>"; };
 		0C67310119D1EB80009828B8 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		0C9F5B2D19D2948F00E0B5FF /* Cryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cryptor.swift; sourceTree = "<group>"; };
-		0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCB89AB19CE05F800068ED6 /* DLDLIDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLDLIDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCB89AF19CE05F800068ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CCB89B019CE05F800068ED6 /* IDZSwiftCommonCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDZSwiftCommonCrypto.h; sourceTree = "<group>"; };
-		0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDZSwiftCommonCryptoTests (iOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCB89B619CE05F800068ED6 /* DLIDZSwiftCommonCryptoTests (iOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DLIDZSwiftCommonCryptoTests (iOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCB89B919CE05F800068ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CCB89BA19CE05F800068ED6 /* IDZSwiftCommonCryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDZSwiftCommonCryptoTests.swift; sourceTree = "<group>"; };
 		0CCB89C419CE071D00068ED6 /* StreamCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamCryptor.swift; sourceTree = "<group>"; };
@@ -138,23 +138,23 @@
 		0CCB89D119CF416B00068ED6 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		3012B11A1BAA237C008504EB /* Updateable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updateable.swift; sourceTree = "<group>"; };
 		3050B9B31BA9F7C700177A38 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
-		308499A71BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDZSwiftCommonCryptoTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		308499A71BA77BC20025B41D /* DLIDZSwiftCommonCryptoTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLIDZSwiftCommonCryptoTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		308499A91BA77BC20025B41D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		308499AB1BA77BC20025B41D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		308499AE1BA77BC20025B41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		308499B01BA77BC20025B41D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		308499B31BA77BC20025B41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		308499B51BA77BC20025B41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDZSwiftCommonCryptoTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		308499BA1BA77BC20025B41D /* DLIDZSwiftCommonCryptoTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLIDZSwiftCommonCryptoTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		308499BE1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDZSwiftCommonCryptoTestAppTests.swift; sourceTree = "<group>"; };
 		308499C01BA77BC20025B41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		308499DA1BA78C600025B41D /* CommonCryptoAPITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCryptoAPITests.m; sourceTree = "<group>"; };
 		309B668D1C3DF32B00CF76D5 /* GenerateCommonCryptoModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateCommonCryptoModule.swift; sourceTree = "<group>"; };
-		309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDZSwiftCommonCryptoTests (OSX).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		309B66C01C3F13B100CF76D5 /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDZSwiftCommonCryptoTests (tvOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		309B66961C3F04F500CF76D5 /* DLIDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLIDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		309B669F1C3F04F500CF76D5 /* DLIDZSwiftCommonCryptoTests (OSX).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DLIDZSwiftCommonCryptoTests (OSX).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		309B66C01C3F13B100CF76D5 /* DLIDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLIDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		309B66C91C3F13B200CF76D5 /* DLIDZSwiftCommonCryptoTests (tvOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DLIDZSwiftCommonCryptoTests (tvOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		309B66E91C3F196500CF76D5 /* DLIDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLIDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				308499D51BA77F2B0025B41D /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				308499D51BA77F2B0025B41D /* DLDLIDZSwiftCommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				309B66A01C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				309B66A01C3F04F500CF76D5 /* DLIDZSwiftCommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +213,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				309B66CA1C3F13B200CF76D5 /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				309B66CA1C3F13B200CF76D5 /* DLIDZSwiftCommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,15 +243,15 @@
 		0CCB89AC19CE05F800068ED6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */,
-				0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */,
-				308499A71BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp.app */,
-				308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */,
-				309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */,
-				309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */,
-				309B66C01C3F13B100CF76D5 /* IDZSwiftCommonCrypto.framework */,
-				309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */,
-				309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */,
+				0CCB89AB19CE05F800068ED6 /* DLDLIDZSwiftCommonCrypto.framework */,
+				0CCB89B619CE05F800068ED6 /* DLIDZSwiftCommonCryptoTests (iOS).xctest */,
+				308499A71BA77BC20025B41D /* DLIDZSwiftCommonCryptoTestApp.app */,
+				308499BA1BA77BC20025B41D /* DLIDZSwiftCommonCryptoTestAppTests.xctest */,
+				309B66961C3F04F500CF76D5 /* DLIDZSwiftCommonCrypto.framework */,
+				309B669F1C3F04F500CF76D5 /* DLIDZSwiftCommonCryptoTests (OSX).xctest */,
+				309B66C01C3F13B100CF76D5 /* DLIDZSwiftCommonCrypto.framework */,
+				309B66C91C3F13B200CF76D5 /* DLIDZSwiftCommonCryptoTests (tvOS).xctest */,
+				309B66E91C3F196500CF76D5 /* DLIDZSwiftCommonCrypto.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -361,9 +361,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0CCB89AA19CE05F800068ED6 /* IDZSwiftCommonCrypto (iOS) */ = {
+		0CCB89AA19CE05F800068ED6 /* DLIDZSwiftCommonCrypto (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CCB89BE19CE05F800068ED6 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCrypto (iOS)" */;
+			buildConfigurationList = 0CCB89BE19CE05F800068ED6 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCrypto (iOS)" */;
 			buildPhases = (
 				303E19651BAA7E1E00044959 /* ShellScript */,
 				0CCB89A619CE05F800068ED6 /* Sources */,
@@ -375,14 +375,14 @@
 			);
 			dependencies = (
 			);
-			name = "IDZSwiftCommonCrypto (iOS)";
+			name = "DLIDZSwiftCommonCrypto (iOS)";
 			productName = IDZSwiftCommonCrypto;
-			productReference = 0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */;
+			productReference = 0CCB89AB19CE05F800068ED6 /* DLDLIDZSwiftCommonCrypto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0CCB89B519CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS) */ = {
+		0CCB89B519CE05F800068ED6 /* DLIDZSwiftCommonCryptoTests (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CCB89C119CE05F800068ED6 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCryptoTests (iOS)" */;
+			buildConfigurationList = 0CCB89C119CE05F800068ED6 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCryptoTests (iOS)" */;
 			buildPhases = (
 				309B668F1C3E045D00CF76D5 /* Run Script */,
 				0CCB89B219CE05F800068ED6 /* Sources */,
@@ -394,14 +394,14 @@
 			dependencies = (
 				0CCB89CF19CE0EDF00068ED6 /* PBXTargetDependency */,
 			);
-			name = "IDZSwiftCommonCryptoTests (iOS)";
+			name = "DLIDZSwiftCommonCryptoTests (iOS)";
 			productName = IDZSwiftCommonCryptoTests;
-			productReference = 0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */;
+			productReference = 0CCB89B619CE05F800068ED6 /* DLIDZSwiftCommonCryptoTests (iOS).xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		308499A61BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp */ = {
+		308499A61BA77BC20025B41D /* DLIDZSwiftCommonCryptoTestApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 308499D21BA77BC20025B41D /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCryptoTestApp" */;
+			buildConfigurationList = 308499D21BA77BC20025B41D /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCryptoTestApp" */;
 			buildPhases = (
 				308499A31BA77BC20025B41D /* Sources */,
 				308499A41BA77BC20025B41D /* Frameworks */,
@@ -413,14 +413,14 @@
 			dependencies = (
 				308499D81BA77F2B0025B41D /* PBXTargetDependency */,
 			);
-			name = IDZSwiftCommonCryptoTestApp;
+			name = DLIDZSwiftCommonCryptoTestApp;
 			productName = IDZSwiftCommonCryptoTestApp;
-			productReference = 308499A71BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp.app */;
+			productReference = 308499A71BA77BC20025B41D /* DLIDZSwiftCommonCryptoTestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		308499B91BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests */ = {
+		308499B91BA77BC20025B41D /* DLIDZSwiftCommonCryptoTestAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 308499D31BA77BC20025B41D /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCryptoTestAppTests" */;
+			buildConfigurationList = 308499D31BA77BC20025B41D /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCryptoTestAppTests" */;
 			buildPhases = (
 				308499B61BA77BC20025B41D /* Sources */,
 				308499B71BA77BC20025B41D /* Frameworks */,
@@ -431,14 +431,14 @@
 			dependencies = (
 				308499BC1BA77BC20025B41D /* PBXTargetDependency */,
 			);
-			name = IDZSwiftCommonCryptoTestAppTests;
+			name = DLIDZSwiftCommonCryptoTestAppTests;
 			productName = IDZSwiftCommonCryptoTestAppTests;
-			productReference = 308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */;
+			productReference = 308499BA1BA77BC20025B41D /* DLIDZSwiftCommonCryptoTestAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		309B66951C3F04F500CF76D5 /* IDZSwiftCommonCrypto (OSX) */ = {
+		309B66951C3F04F500CF76D5 /* DLIDZSwiftCommonCrypto (OSX) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 309B66A71C3F04F500CF76D5 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCrypto (OSX)" */;
+			buildConfigurationList = 309B66A71C3F04F500CF76D5 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCrypto (OSX)" */;
 			buildPhases = (
 				309B66AD1C3F051800CF76D5 /* ShellScript */,
 				309B66911C3F04F500CF76D5 /* Sources */,
@@ -450,14 +450,14 @@
 			);
 			dependencies = (
 			);
-			name = "IDZSwiftCommonCrypto (OSX)";
+			name = "DLIDZSwiftCommonCrypto (OSX)";
 			productName = "IDZSwiftCommonCrypto (OSX)";
-			productReference = 309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */;
+			productReference = 309B66961C3F04F500CF76D5 /* DLIDZSwiftCommonCrypto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		309B669E1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX) */ = {
+		309B669E1C3F04F500CF76D5 /* DLIDZSwiftCommonCryptoTests (OSX) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 309B66AA1C3F04F500CF76D5 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCryptoTests (OSX)" */;
+			buildConfigurationList = 309B66AA1C3F04F500CF76D5 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCryptoTests (OSX)" */;
 			buildPhases = (
 				309B66AE1C3F06A400CF76D5 /* ShellScript */,
 				309B669B1C3F04F500CF76D5 /* Sources */,
@@ -469,14 +469,14 @@
 			dependencies = (
 				309B66A21C3F04F500CF76D5 /* PBXTargetDependency */,
 			);
-			name = "IDZSwiftCommonCryptoTests (OSX)";
+			name = "DLIDZSwiftCommonCryptoTests (OSX)";
 			productName = "IDZSwiftCommonCrypto (OSX)Tests";
-			productReference = 309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */;
+			productReference = 309B669F1C3F04F500CF76D5 /* DLIDZSwiftCommonCryptoTests (OSX).xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		309B66BF1C3F13B100CF76D5 /* IDZSwiftCommonCrypto (tvOS) */ = {
+		309B66BF1C3F13B100CF76D5 /* DLIDZSwiftCommonCrypto (tvOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 309B66D11C3F13B200CF76D5 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCrypto (tvOS)" */;
+			buildConfigurationList = 309B66D11C3F13B200CF76D5 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCrypto (tvOS)" */;
 			buildPhases = (
 				309B66E31C3F14C600CF76D5 /* ShellScript */,
 				309B66BB1C3F13B100CF76D5 /* Sources */,
@@ -488,14 +488,14 @@
 			);
 			dependencies = (
 			);
-			name = "IDZSwiftCommonCrypto (tvOS)";
+			name = "DLIDZSwiftCommonCrypto (tvOS)";
 			productName = "IDZSwiftCommonCrypto (tvOS)";
-			productReference = 309B66C01C3F13B100CF76D5 /* IDZSwiftCommonCrypto.framework */;
+			productReference = 309B66C01C3F13B100CF76D5 /* DLIDZSwiftCommonCrypto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		309B66C81C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS) */ = {
+		309B66C81C3F13B200CF76D5 /* DLIDZSwiftCommonCryptoTests (tvOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 309B66D41C3F13B200CF76D5 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCryptoTests (tvOS)" */;
+			buildConfigurationList = 309B66D41C3F13B200CF76D5 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCryptoTests (tvOS)" */;
 			buildPhases = (
 				309B66C51C3F13B200CF76D5 /* Sources */,
 				309B66C61C3F13B200CF76D5 /* Frameworks */,
@@ -506,14 +506,14 @@
 			dependencies = (
 				309B66CC1C3F13B200CF76D5 /* PBXTargetDependency */,
 			);
-			name = "IDZSwiftCommonCryptoTests (tvOS)";
+			name = "DLIDZSwiftCommonCryptoTests (tvOS)";
 			productName = "IDZSwiftCommonCrypto (tvOS)Tests";
-			productReference = 309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */;
+			productReference = 309B66C91C3F13B200CF76D5 /* DLIDZSwiftCommonCryptoTests (tvOS).xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		309B66E81C3F196500CF76D5 /* IDZSwiftCommonCrypto (watchOS) */ = {
+		309B66E81C3F196500CF76D5 /* DLIDZSwiftCommonCrypto (watchOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 309B66EE1C3F196500CF76D5 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCrypto (watchOS)" */;
+			buildConfigurationList = 309B66EE1C3F196500CF76D5 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCrypto (watchOS)" */;
 			buildPhases = (
 				309B66F11C3F197A00CF76D5 /* ShellScript */,
 				309B66E41C3F196500CF76D5 /* Sources */,
@@ -525,9 +525,9 @@
 			);
 			dependencies = (
 			);
-			name = "IDZSwiftCommonCrypto (watchOS)";
+			name = "DLIDZSwiftCommonCrypto (watchOS)";
 			productName = "IDZSwiftCommonCrypto (watchOS)";
-			productReference = 309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */;
+			productReference = 309B66E91C3F196500CF76D5 /* DLIDZSwiftCommonCrypto.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -580,7 +580,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0CCB89A519CE05F800068ED6 /* Build configuration list for PBXProject "IDZSwiftCommonCrypto" */;
+			buildConfigurationList = 0CCB89A519CE05F800068ED6 /* Build configuration list for PBXProject "DLIDZSwiftCommonCrypto" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -593,15 +593,15 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CCB89AA19CE05F800068ED6 /* IDZSwiftCommonCrypto (iOS) */,
-				309B66951C3F04F500CF76D5 /* IDZSwiftCommonCrypto (OSX) */,
-				309B66E81C3F196500CF76D5 /* IDZSwiftCommonCrypto (watchOS) */,
-				309B66BF1C3F13B100CF76D5 /* IDZSwiftCommonCrypto (tvOS) */,
-				0CCB89B519CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS) */,
-				309B669E1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX) */,
-				309B66C81C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS) */,
-				308499A61BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp */,
-				308499B91BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests */,
+				0CCB89AA19CE05F800068ED6 /* DLIDZSwiftCommonCrypto (iOS) */,
+				309B66951C3F04F500CF76D5 /* DLIDZSwiftCommonCrypto (OSX) */,
+				309B66E81C3F196500CF76D5 /* DLIDZSwiftCommonCrypto (watchOS) */,
+				309B66BF1C3F13B100CF76D5 /* DLIDZSwiftCommonCrypto (tvOS) */,
+				0CCB89B519CE05F800068ED6 /* DLIDZSwiftCommonCryptoTests (iOS) */,
+				309B669E1C3F04F500CF76D5 /* DLIDZSwiftCommonCryptoTests (OSX) */,
+				309B66C81C3F13B200CF76D5 /* DLIDZSwiftCommonCryptoTests (tvOS) */,
+				308499A61BA77BC20025B41D /* DLIDZSwiftCommonCryptoTestApp */,
+				308499B91BA77BC20025B41D /* DLIDZSwiftCommonCryptoTestAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -874,27 +874,27 @@
 /* Begin PBXTargetDependency section */
 		0CCB89CF19CE0EDF00068ED6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0CCB89AA19CE05F800068ED6 /* IDZSwiftCommonCrypto (iOS) */;
+			target = 0CCB89AA19CE05F800068ED6 /* DLIDZSwiftCommonCrypto (iOS) */;
 			targetProxy = 0CCB89CE19CE0EDF00068ED6 /* PBXContainerItemProxy */;
 		};
 		308499BC1BA77BC20025B41D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 308499A61BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp */;
+			target = 308499A61BA77BC20025B41D /* DLIDZSwiftCommonCryptoTestApp */;
 			targetProxy = 308499BB1BA77BC20025B41D /* PBXContainerItemProxy */;
 		};
 		308499D81BA77F2B0025B41D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0CCB89AA19CE05F800068ED6 /* IDZSwiftCommonCrypto (iOS) */;
+			target = 0CCB89AA19CE05F800068ED6 /* DLIDZSwiftCommonCrypto (iOS) */;
 			targetProxy = 308499D71BA77F2B0025B41D /* PBXContainerItemProxy */;
 		};
 		309B66A21C3F04F500CF76D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 309B66951C3F04F500CF76D5 /* IDZSwiftCommonCrypto (OSX) */;
+			target = 309B66951C3F04F500CF76D5 /* DLIDZSwiftCommonCrypto (OSX) */;
 			targetProxy = 309B66A11C3F04F500CF76D5 /* PBXContainerItemProxy */;
 		};
 		309B66CC1C3F13B200CF76D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 309B66BF1C3F13B100CF76D5 /* IDZSwiftCommonCrypto (tvOS) */;
+			target = 309B66BF1C3F13B100CF76D5 /* DLIDZSwiftCommonCrypto (tvOS) */;
 			targetProxy = 309B66CB1C3F13B200CF76D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1030,7 +1030,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				PRODUCT_NAME = DLDLIDZSwiftCommonCrypto;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}";
 				SWIFT_VERSION = 2.3;
@@ -1050,7 +1050,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				PRODUCT_NAME = DLDLIDZSwiftCommonCrypto;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}";
 				SWIFT_VERSION = 2.3;
@@ -1106,7 +1106,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCryptoTestApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperzone.IDZSwiftCommonCryptoTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1123,7 +1123,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCryptoTestApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperzone.IDZSwiftCommonCryptoTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1144,7 +1144,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperzone.IDZSwiftCommonCryptoTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 2.3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDZSwiftCommonCryptoTestApp.app/IDZSwiftCommonCryptoTestApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLIDZSwiftCommonCryptoTestApp.app/DLIDZSwiftCommonCryptoTestApp";
 			};
 			name = Debug;
 		};
@@ -1161,7 +1161,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperzone.IDZSwiftCommonCryptoTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 2.3;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDZSwiftCommonCryptoTestApp.app/IDZSwiftCommonCryptoTestApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DLIDZSwiftCommonCryptoTestApp.app/DLIDZSwiftCommonCryptoTestApp";
 			};
 			name = Release;
 		};
@@ -1182,7 +1182,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--OSX-";
-				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				PRODUCT_NAME = DLIDZSwiftCommonCrypto;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 2.3;
@@ -1207,7 +1207,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--OSX-";
-				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				PRODUCT_NAME = DLIDZSwiftCommonCrypto;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 2.3;
@@ -1263,7 +1263,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--tvOS-";
-				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				PRODUCT_NAME = DLIDZSwiftCommonCrypto;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 2.3;
@@ -1287,7 +1287,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--tvOS-";
-				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				PRODUCT_NAME = DLIDZSwiftCommonCrypto;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 2.3;
@@ -1342,7 +1342,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--watchOS-";
-				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				PRODUCT_NAME = DLIDZSwiftCommonCrypto;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 2.3;
@@ -1367,7 +1367,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--watchOS-";
-				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				PRODUCT_NAME = DLIDZSwiftCommonCrypto;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 2.3;
@@ -1379,7 +1379,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CCB89A519CE05F800068ED6 /* Build configuration list for PBXProject "IDZSwiftCommonCrypto" */ = {
+		0CCB89A519CE05F800068ED6 /* Build configuration list for PBXProject "DLIDZSwiftCommonCrypto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CCB89BC19CE05F800068ED6 /* Debug */,
@@ -1388,7 +1388,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CCB89BE19CE05F800068ED6 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCrypto (iOS)" */ = {
+		0CCB89BE19CE05F800068ED6 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCrypto (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CCB89BF19CE05F800068ED6 /* Debug */,
@@ -1397,7 +1397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CCB89C119CE05F800068ED6 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCryptoTests (iOS)" */ = {
+		0CCB89C119CE05F800068ED6 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCryptoTests (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CCB89C219CE05F800068ED6 /* Debug */,
@@ -1406,7 +1406,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		308499D21BA77BC20025B41D /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCryptoTestApp" */ = {
+		308499D21BA77BC20025B41D /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCryptoTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				308499CC1BA77BC20025B41D /* Debug */,
@@ -1415,7 +1415,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		308499D31BA77BC20025B41D /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCryptoTestAppTests" */ = {
+		308499D31BA77BC20025B41D /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCryptoTestAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				308499CE1BA77BC20025B41D /* Debug */,
@@ -1424,7 +1424,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		309B66A71C3F04F500CF76D5 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCrypto (OSX)" */ = {
+		309B66A71C3F04F500CF76D5 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCrypto (OSX)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				309B66A81C3F04F500CF76D5 /* Debug */,
@@ -1433,7 +1433,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		309B66AA1C3F04F500CF76D5 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCryptoTests (OSX)" */ = {
+		309B66AA1C3F04F500CF76D5 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCryptoTests (OSX)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				309B66AB1C3F04F500CF76D5 /* Debug */,
@@ -1442,7 +1442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		309B66D11C3F13B200CF76D5 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCrypto (tvOS)" */ = {
+		309B66D11C3F13B200CF76D5 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCrypto (tvOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				309B66D21C3F13B200CF76D5 /* Debug */,
@@ -1451,7 +1451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		309B66D41C3F13B200CF76D5 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCryptoTests (tvOS)" */ = {
+		309B66D41C3F13B200CF76D5 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCryptoTests (tvOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				309B66D51C3F13B200CF76D5 /* Debug */,
@@ -1460,7 +1460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		309B66EE1C3F196500CF76D5 /* Build configuration list for PBXNativeTarget "IDZSwiftCommonCrypto (watchOS)" */ = {
+		309B66EE1C3F196500CF76D5 /* Build configuration list for PBXNativeTarget "DLIDZSwiftCommonCrypto (watchOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				309B66EF1C3F196500CF76D5 /* Debug */,

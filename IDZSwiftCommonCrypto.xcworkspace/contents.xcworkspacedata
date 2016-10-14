@@ -8,6 +8,6 @@
       location = "group:README.playground">
    </FileRef>
    <FileRef
-      location = "container:IDZSwiftCommonCrypto.xcodeproj">
+      location = "container:/Users/bzdybowicz/Desktop/DreamLab/fork_idzswiftcommoncrypto/IDZSwiftCommonCrypto/DLIDZSwiftCommonCrypto.xcodeproj">
    </FileRef>
 </Workspace>
